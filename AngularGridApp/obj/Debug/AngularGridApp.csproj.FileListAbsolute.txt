@@ -1,0 +1,6 @@
+c:\users\pratik jain\documents\visual studio 2013\Projects\AngularGridApp\AngularGridApp\bin\AngularGridApp.dll.config
+c:\users\pratik jain\documents\visual studio 2013\Projects\AngularGridApp\AngularGridApp\bin\AngularGridApp.dll
+c:\users\pratik jain\documents\visual studio 2013\Projects\AngularGridApp\AngularGridApp\bin\AngularGridApp.pdb
+c:\users\pratik jain\documents\visual studio 2013\Projects\AngularGridApp\AngularGridApp\obj\Debug\AngularGridApp.csprojResolveAssemblyReference.cache
+c:\users\pratik jain\documents\visual studio 2013\Projects\AngularGridApp\AngularGridApp\obj\Debug\AngularGridApp.dll
+c:\users\pratik jain\documents\visual studio 2013\Projects\AngularGridApp\AngularGridApp\obj\Debug\AngularGridApp.pdb

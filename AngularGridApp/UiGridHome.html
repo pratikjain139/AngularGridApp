@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-touch.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/csv.js"></script>
+    <script src="Scripts/pdfmake.js"></script>
+    <script src="Scripts/vfs_fonts.js"></script>
+
+    <script src="Scripts/lodash.min.js"></script>
+    <script src="Scripts/jszip.min.js"></script>
+    <script src="Scripts/excel-builder.dist.js"></script>
+    <script src="Scripts/ui-grid.js"></script>
+    <link href="Content/ui-grid.css" rel="stylesheet" />
+    <link href="Content/AngularGrid.css" rel="stylesheet" />
+    <script src="Scripts/AppScripts/App.js"></script>
+    <title></title>
+</head>
+<body>
+    <div> Test data</div>
+
+
+    <div ng-controller="MainCtrl as vm">        
+        <div id="grid1" ui-grid="vm.gridOptions" ui-grid-pinning ui-grid-expandable class="grid"></div>
+        <input type="button" ng-click="vm.isShow=true;" value="Add" title="add" />
+        <br />
+        <br />
+        <input type="text" ng-model="vm.modeldata.UnitConfigId" ng-show="vm.isShow" ng-required="true" />        
+        <input type="text" ng-model="vm.modeldata.UnitConfigText" ng-disabled="vm.modeldata.UnitConfigId==='' || vm.modeldata.UnitConfigId===undefined" ng-show="vm.isShow" ng-required="true" />        
+        <input type="button" ng-show="vm.isShow" ng-disabled="vm.modeldata.UnitConfigText==='' || vm.modeldata.UnitConfigText===undefined" ng-click="vm.addData(); vm.isSubShow=true;" value="Add Record" title="add record" />
+        <br />
+        <br />
+        <input type="text" ng-model="vm.modeldata.UnitText" ng-show="vm.isSubShow" />
+        <input type="text" ng-model="vm.modeldata.LanguageName" ng-disabled="vm.modeldata.UnitText==='' || vm.modeldata.UnitText===undefined" ng-show="vm.isSubShow" />        
+        <input type="button" ng-disabled="vm.modeldata.LanguageName==='' || vm.modeldata.LanguageName===undefined" ng-click="vm.addSubData()" ng-show="vm.isSubShow" value="Save" title="Save" />
+    </div>
+    
+</body>
+</html>

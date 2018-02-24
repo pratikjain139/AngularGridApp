@@ -1,0 +1,46 @@
+{
+    "variableVersionId": 14029,
+    "variableName": "ABC",
+    "variableVersion": 1,
+    "comment": " ",
+    "variableType": "unit",
+    "deviceBranchId": 1455,
+    "message": "Variable Retrieved successfully",
+    "status": "200",
+    "varVersionReference": " ",
+    "variableStatus": "Active",
+    "iconComplexFunc": "",
+    "iconComplexComm": "",
+    "runTimeVersions": [],
+    "unitVariableModelList": [
+        {
+            "varUnitConfiguration": "KONFIG(Unit_Distance)==0x01",
+            "varUnitConfigId": "Tester34546dsfds",
+            "varUnitUserDefined": null,
+            "unitLangList": [
+                {
+                    "unitText": "?",
+                    "languageName": "Bulgarisch"
+                },
+                {
+                    "unitText": "test",
+                    "languageName": "Dänisch"
+                }
+            ]
+        },
+        {
+            "varUnitConfiguration": "KONFIG(Unit_Distance)==0x01",
+            "varUnitConfigId": "Tester13",
+            "varUnitUserDefined": null,
+            "unitLangList": [
+                {
+                    "unitText": "?1",
+                    "languageName": "Chinesisch Simpl. China"
+                }
+            ]
+        }
+    ],
+    "statusId": 2,
+    "statusLongDesc": "Draft",
+    "varVersionRefence": " "
+}
